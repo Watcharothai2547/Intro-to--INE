@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Prompt:wght@400;500;700&display=swap');
+
+/* Index */
+body {
+
+    text-align: left;
+    background: url(/image/Fitm.jpg)no-repeat center center fixed;
+    font-family: 'Prompt', 'Poppins', sans-serif;
+    background-size: cover;
+    font-style: normal;
+    font-weight: 200;
+}
+
+h1 {
+    color: black;
+    -webkit-text-stroke: 1px beige;
+    display: inline;
+    background-color: rgb(49, 112, 112);
+    padding: 0.5px;
+
+}
+
+.content2 {
+
+    color: #ddd;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+}
+
+.Link1{
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* My Profile
+ */
+img {
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+
+}
+
+
+
+.Contianer h1 {
+    color: rgb(107, 8, 8);
+    background: rgb(39, 59, 59);
+}
+
+.content {
+    color: rgb(255, 255, 255);
+
+}
+
+.image {
+    display: flex;
+    /* เรียงเป็นแนวนอน */
+    gap: 50px;
+    /* ระยะห่างระหว่างรูป */
+    justify-content: center;
+    /* จัดกึ่งกลางเพจ */
+
+}
+
+
+/* Subject */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: l;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Prompt", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+table thead {
+    background: #0289ff;
+    color: #fff;
+}
+
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+
+table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+table tbody tr:hover {
+    background: #e8f4ff;
+    cursor: pointer;
+}
+
+.about {
+    color: #ffffff;
+    -webkit-text-stroke: 0.8px rgb(255, 0, 0);
+    padding: 0.5px;
+
+}
