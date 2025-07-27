@@ -27,17 +27,32 @@ h1 {
 
 }
 
-.Link1{
-    color: #ddd;
+.Link1 {
+    color: #ff0000;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;/
 }
 
 
+a:visited {
+    color: #d000ff;
+}
 
 
+a:hover {
+    color: #ffff00b1;
+    text-decoration: underline;
+}
 
 
-
-
+a:active {
+    color: #95ff00;
+}
 
 
 
@@ -65,14 +80,19 @@ img {
 
 .image {
     display: flex;
-    /* เรียงเป็นแนวนอน */
+
     gap: 50px;
-    /* ระยะห่างระหว่างรูป */
+
     justify-content: center;
-    /* จัดกึ่งกลางเพจ */
+
 
 }
 
+.Link2 {
+    color: #ff0000;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+}
 
 /* Subject */
 
@@ -120,4 +140,9 @@ table tbody tr:hover {
     -webkit-text-stroke: 0.8px rgb(255, 0, 0);
     padding: 0.5px;
 
+}
+
+.Link3 {
+    color: #ffffff;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
